@@ -72,7 +72,3 @@ eigvec
 # To determine eigen value at a particular index.
 eigval[1]
 
-import pandas as pd # For reading the CSV File
-
-data = pd.read_csv('F:/New_Laptop_Documents/NMIMS_College_Docs/2nd_Year/1st_Semester/RPT/Practicals/Exp_3/AMZ1.csv')
-
