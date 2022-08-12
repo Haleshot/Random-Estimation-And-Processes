@@ -4,9 +4,6 @@
 # In[1]:
 
 
-# prac 03 B3 Srihari Thyagarajan 04 August
-
-
 # In[69]:
 
 
