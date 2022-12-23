@@ -109,32 +109,3 @@ plt.title("Normal (Gaussian) Distribution")
 plt.xlabel("Value of Gaussian RV")
 plt.ylabel("Frequency of Occurence")
 plt.show()
-
-
-# In[137]:
-
-
-# Auto Correlation Function Plots (ACF plots)
-data = pd.read_csv('C:/Users/mpstme.student/Downloads/I066_Folder/Experiment_4/AAPL.csv') # Reading of the Apple Stock History stored on the Computer
-data
-
-
-# In[145]:
-
-
-data_1 = data[["Date", "Adj Close"]].set_index(["Date"])
-data_1
-
-
-# In[149]:
-
-
-plot_acf(data_1)
-
-
-# In[ ]:
-
-
-
-
- 
